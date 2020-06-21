@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+/**** header start ****/
+
+header {
+    margin: 10px 0;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.brand-logo {
+    width: 25%;
+    float: left;
+}
+
+.brand-logo img {
+    width: 100%;
+}
+
+.main-nav {
+    width: 70%;
+    float: right;
+}
+
+.main-nav ul {
+    float: right;
+}
+
+.main-nav ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+
+.main-nav ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2F73DE;
+    text-transform: uppercase;
+
+    text-decoration: none;
+    padding: 0 18px;
+}
+
+.main-nav ul li a:last-child {
+    padding-right: 0;
+}
+
+/**** header end ****/
+
+
+/**** banner start ****/
+
+.banner {
+    background: url("../images/cover.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*    padding: 150px 0;*/
+
+}
+
+.banner-content {
+    width: 35%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+
+}
+
+.banner-content h1 {
+    font-weight: 400 !important;
+    font-size: 42px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.banner-content button {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 6px;
+}
+
+/**** banner end ****/
+
+
+/**** service start ****/
+.service {
+    padding: 60px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.service-item {
+    width: 33.1%;
+    float: left;
+    text-align: center;
+
+}
+
+.service-content {
+    padding: 20px;
+}
+
+.service-content h2 {
+    font-weight: 400;
+    font-size: 28px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.service-content img {
+    width: 100%;
+}
+
+.service-content p {
+    color: grey;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.service-content button {
+    margin-top: 30px;
+    background-color: darkblue;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 18px;
+}
+
+/**** service end ****/
+
+
+/**** footer start ****/
+
+footer {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.footer-content h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: grey;
+}
+
+.footer-content p {
+    color: grey;
+}
+
+.social-icons {
+    font-size: 50px;
+    color: blueviolet;
+}
+
+/**** footer end ****/
